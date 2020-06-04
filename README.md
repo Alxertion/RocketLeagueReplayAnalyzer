@@ -2,6 +2,8 @@
 
 This is a Python tool that allows you to load JSON replays, and analyze them by writing continuous queries in a Streaming SQL-like language.
 
+Note: I used [jjbott's Rocket League Replay Parser](https://github.com/jjbott/RocketLeagueReplayParser) to convert replays to JSON format, so if you want to convert one of your replays to JSON so it can be loaded by this tool, you can use that Replay Parser.
+
 Screenshot:
 
 ![Screenshot](https://github.com/Alxertion/RocketLeagueReplayAnalyzer/blob/master/screenshot.png?raw=true)
