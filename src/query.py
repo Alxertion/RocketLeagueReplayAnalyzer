@@ -99,12 +99,12 @@ class Query:
 
     INITIAL_QUERIES = "IF ball.x < midfield.x\n" \
                       "FOR LAST 2 SECONDS\n" \
-                      "THEN PRINT(\"Left team defending\")\n" \
+                      "THEN PRINT(\"Orange team defending\")\n" \
                       "EVERY 1 SECONDS\n" \
                       "\n" \
                       "IF ball.x > midfield.x\n" \
                       "FOR LAST 2 SECONDS\n" \
-                      "THEN PRINT(\"Right team defending\")\n" \
+                      "THEN PRINT(\"Blue team defending\")\n" \
                       "EVERY 1 SECONDS\n" \
                       "\n" \
                       "IF player.3.x > midfield.x and player.5.x > midfield.x and player.6.x > midfield.x\n" \
